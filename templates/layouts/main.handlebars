@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='/static/main.css'>
+</head>
+
+<body>
+  <div class="page">
+  <header class="Header">
+    <a class="Header__logo__a" href="/">
+      <img class="Header__logo" src="static/assets/bihjografenlogo.png" alt="logo of the site" /></a>
+    <nav class="Header__nav">
+      <ul class="Header__nav__ul">
+        <li class="Header__nav__ul__li">
+          <a href="/movies">Filmer</a>
+        </li>
+        <li class="Header__nav__ul__li"><a href="">Biljetter</a></li>
+        <li class="Header__nav__ul__li">
+          <a href="/aboutUs">Om oss</a>
+        </li>
+        <li class="Header__nav__ul__li">
+          <input class="Header__nav__ul__li__search-input" type="text" />
+          <i class="fas fa-search Header__nav__ul__li__search-icon">
+          </i>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <div class="main">
+      {{{body}}}
+    </div>
+     <footer class="footer">
+    <div class="footer__container">
+      <a class="footer__a" href="#about">Om oss</a>
+      <a class="footer__a" href="#location">Plats</a>
+      <a class="footer__a" href="#facebook">Facebook</a>
+      <a class="footer__a" href="#twitter">Twitter</a>
+      <a class="footer__a" href="#instagram">Instagram</a>
+    </div>
+  </footer>
+  </div>
+
+  <script src='main.js'></script>
+</body>
+
+</html>
