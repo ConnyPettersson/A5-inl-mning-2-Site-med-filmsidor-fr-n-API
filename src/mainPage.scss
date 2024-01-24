@@ -5,7 +5,10 @@
   max-width: 100%;
 }
 
+
 body {
+  min-height: 100vh;
+  position: relative;
   background-color: black;
 }
 
@@ -15,7 +18,7 @@ body {
   display: flex;
   flex-flow: column;
   align-items: end;
-  margin-top: 2em;
+  
 
   .Header__logo {
     height: 9.5em;
