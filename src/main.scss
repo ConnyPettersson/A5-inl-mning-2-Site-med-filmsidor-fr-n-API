@@ -2,12 +2,6 @@
 then everything will compile to main.css from here. 
 To do this you write @import "insert .scss file name here".*/
 
-body, html {
-  min-height: 100%;
-  position: relative;
-  background-color: black;
-}
-
 @import "header";
 
 @import "footer";

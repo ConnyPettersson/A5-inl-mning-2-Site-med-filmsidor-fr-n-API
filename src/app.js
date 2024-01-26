@@ -15,9 +15,10 @@ app.get("/", async (request, response) => {
 });
 
 app.get("/movies/:movieId", async (request, response) => {
-  const movie = await  loadMovie(request.params.movieId);
+  const movie = await loadMovie(request.params.movieId);
   response.render("movie", {movie});
 });
+
 
 app.use("/static", express.static("./static"));
 

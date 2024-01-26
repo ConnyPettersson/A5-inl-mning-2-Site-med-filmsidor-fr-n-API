@@ -1,20 +1,14 @@
 /*In this file there should only be imports from other .scss files,
 then everything will compile to main.css from here. 
 To do this you write @import "insert .scss file name here".*/
-body, html {
-  min-height: 100%;
-  position: relative;
-  background-color: black;
-}
-
 .footer {
   width: 100vw;
   background-color: #464646;
   display: flex;
   justify-content: space-evenly;
   font-size: 1.4em;
-  position: absolute;
-  bottom: 0;
+  /*  position: absolute;
+   bottom:0; */
 }
 .footer__container {
   display: flex;
