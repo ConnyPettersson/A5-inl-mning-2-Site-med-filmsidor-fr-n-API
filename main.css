@@ -7,8 +7,11 @@ To do this you write @import "insert .scss file name here".*/
   display: flex;
   justify-content: space-evenly;
   font-size: 1.4em;
+<<<<<<< Updated upstream
   /*  position: absolute;
    bottom:0; */
+=======
+>>>>>>> Stashed changes
 }
 .footer__container {
   display: flex;
@@ -28,8 +31,11 @@ To do this you write @import "insert .scss file name here".*/
 }
 
 body {
+<<<<<<< Updated upstream
   min-height: 100vh;
   position: relative;
+=======
+>>>>>>> Stashed changes
   background-color: black;
 }
 
@@ -39,6 +45,10 @@ body {
   display: flex;
   flex-flow: column;
   align-items: end;
+<<<<<<< Updated upstream
+=======
+  margin-top: 2em;
+>>>>>>> Stashed changes
 }
 .Header .Header__logo {
   height: 9.5em;

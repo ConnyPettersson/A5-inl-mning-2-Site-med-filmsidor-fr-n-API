@@ -16,6 +16,7 @@ app.get("/", async (request, response) => {
 
 app.get("/movies/:movieId", async (request, response) => {
   const movie = await loadMovie(request.params.movieId);
+  console.log(movie);
   response.render("movie", {movie});
 });
 
